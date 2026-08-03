@@ -33,7 +33,43 @@ console.log(typeof titles);
 
 //Question 4:
 
+const {title: Title, content}= notes[2];
+let a= 1;
+console.log(Title);
+console.log(`My No.${a} choice for songs are ${content}`);
+
+
+// Question 5:
+
+async function getSampleData() {
+  const response = await fetch("https://jsonplaceholder.typicode.com/todos/1");
+  const data = await response.json();
+  console.log(data);
+}
+ 
+getSampleData();
+
+// Okay, I js copy-pasted this whole code as it was written on the doc file.
+
+
+//Question 5 again after today's class.. lemme do it with using try keywords and response attributes.
 
 
 
+async function getSampleData1() {
+    try{
+        const response = await fetch("https://jsonplaceholder.typicode.com/todos/2");
+        const data1 = await response.json();
+        if(!response.ok){
+            throw new Error(`HTTP error booooommm! Status: ${response.status}`);
+        }
+        console.log(data1);
+}
+    catch (error) {
+        console.log("This is what Error you got Noob:", error);
+    }
+}
 
+getSampleData1();
+
+// NO AI is Used in doing all this warmup... but i have used it to understand few things like A4 and .map 
