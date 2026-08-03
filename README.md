@@ -19,7 +19,7 @@ We used api(s) to fetch the notes from backend(basically stored in a temp array 
 <br>
 <hr>
 <b> <h2>>Screenshot of the APP working.</b></h2>
-![alt text](image.png)
+![alt text](ss.png)
 <BR><hr>
 <b> <h3>>My thoughts over this app/assignment---</b></h3><br>
 In this assignment, we are studying about the basics of "ERN" stack, by creating a basic Mirconotes app using React.js and Node.js<br>
