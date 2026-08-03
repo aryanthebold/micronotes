@@ -29,4 +29,4 @@ Also ik i did a super bad job at the color scheme of the App sorryy for that :D
 
 
 This assignment is submitted by Aryan Pratap Singh.
-Must have line so others may fail to copy my work ^_^
+Must have line so others might fail to copy my work ^_^
