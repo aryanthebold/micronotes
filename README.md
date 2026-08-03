@@ -18,8 +18,8 @@ Using this app, you can add your little notes with a Title and a Content and it 
 We used api(s) to fetch the notes from backend(basically stored in a temp array as Sir gave it in the assignment, which resets after the server restarts).<br>
 <br>
 <hr>
-<b> <h2>>Screenshot of the APP working.</b></h2><br>
-![alt text](image-1.png)
+<b> <h2>>Screenshot of the APP working.</b></h2>
+![alt text](image-2.png)
 
 
 <BR><hr>
