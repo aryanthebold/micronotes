@@ -7,19 +7,19 @@ app.use(express.json());
  
 // Our "database" for this assignment — just an array in memory.
 // It resets every time the server restarts, and that's fine for now.
+// OKAY SIR :)
+
 let notes = [];
 let nextId = 1;
  
-// TODO 1: GET /api/notes — send back the notes array
 app.get("/api/notes", (req, res) => {
-  // hint: res.json(notes);
+  res.json(notes);
 });
  
-// TODO 2: POST /api/notes — build a note from req.body, add it to the array, send it back
 app.post("/api/notes", (req, res) => {
-  // hint: const newNote = { id: nextId++, title: req.body.title, content: req.body.content, createdAt: new Date() };
-  // then: notes.push(newNote);
-  // then: res.status(201).json(newNote);
+  const note= { id: nextId++, title: req.body.title, content: req.body.content, createdAt: new Date() };
+  notes.push(note);
+  res.status(201).json(note)
 });
  
 app.listen(5000, () => console.log("Server running on port 5000"));
