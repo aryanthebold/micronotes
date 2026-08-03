@@ -19,7 +19,7 @@ We used api(s) to fetch the notes from backend(basically stored in a temp array 
 <br>
 <hr>
 <b> <h2>>Screenshot of the APP working.</b></h2><br>
-![alt text](image.png)
+![alt text](image-1.png)
 
 
 <BR><hr>
